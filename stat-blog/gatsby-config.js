@@ -5,7 +5,22 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+        // Used for the title template on pages other than the index site
+        siteTitle: `Jerry Bui`,
+        // Default title of the page
+        siteTitleAlt: `Jerry Bui Blog - Phân tích thống kê không khó`,
+        // Can be used for e.g. JSONLD
+        siteHeadline: `Jerry Bui Blog - Phân tích thống kê không khó`,
+        // Will be used to generate absolute URLs for og:image etc.
+        siteUrl: `https://statforfree.com`,
+        // Used for SEO
+        siteDescription: `Blog cá nhân về phân tích thống kê, ứng dụng phân tích thống kê vào trong lĩnh vực công việc, giúp đưa ra các quyết định dựa trên thực tế.`,
+        // Will be set on the <html /> tag
+        siteLanguage: `en`,
+        // Used for og:image and must be placed inside the `static` folder
+        siteImage: `/banner.jpg`,
+        // Twitter Handle
+        author: `@jerry_bui`,
   },
   flags: {
     FAST_DEV: true,
