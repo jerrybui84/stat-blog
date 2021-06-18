@@ -26,6 +26,7 @@ module.exports = {
     FAST_DEV: true,
   },
   plugins: [
+    'gatsby-plugin-netlify-cms',
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
