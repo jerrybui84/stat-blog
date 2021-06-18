@@ -145,7 +145,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Jerry Bui Blog - Phân tích thống kê`,
           },
         ],
       },
