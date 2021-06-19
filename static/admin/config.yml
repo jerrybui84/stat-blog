@@ -29,7 +29,7 @@ collections:
       - file: 'content/pages/about/index.mdx'
         name: 'index'
         label: 'About'
-        slug: '/about'
         fields:
           - { label: 'Title', name: 'title', widget: 'string', default: 'About' }
+          - { label: 'Slug', name: 'slug', widget: 'string', default: '/about' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
