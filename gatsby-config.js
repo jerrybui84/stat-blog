@@ -28,6 +28,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-netlify-cms',
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `jerrybui`
+      }
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
