@@ -14,7 +14,7 @@ module.exports = {
         // Will be used to generate absolute URLs for og:image etc.
         siteUrl: `https://statforfree.com`,
         // Used for SEO
-        siteDescription: `Blog cá nhân về phân tích thống kê, ứng dụng phân tích thống kê vào trong lĩnh vực công việc, giúp đưa ra các quyết định dựa trên thực tế.`,
+        siteDescription: `Xin chào, Mình là Jerry Bùi, hiện tại đang là kỹ sư chất lượng làm việc trong lĩnh vực sản xuất điện & điện tử. Đây là trang cá nhân chia sẻ các kiến thức về phân tích thống kê, Minitab, R, khoa học mở và trực quan hóa dữ liệu.`,
         // Will be set on the <html /> tag
         siteLanguage: `en`,
         // Used for og:image and must be placed inside the `static` folder

@@ -30,7 +30,7 @@ const Blog = ({ posts }: PostsProps) => {
       <Seo title="Blog" />
       <Flex sx={{ alignItems: `center`, justifyContent: `space-between`, flexFlow: `wrap` }}>
         <Heading as="h1" variant="styles.h1" sx={{ marginY: 2 }}>
-          Blog
+          Blog Posts
         </Heading>
         <TLink
           as={Link}
