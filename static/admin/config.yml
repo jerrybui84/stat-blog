@@ -27,7 +27,7 @@ collections:
     label: 'Pages'
     files:
       - file: 'content/pages/about/index.mdx'
-        name: 'About'
+        name: 'index'
         label: 'About'
         fields:
           - { label: 'Body', name: 'body', widget: 'markdown' }
