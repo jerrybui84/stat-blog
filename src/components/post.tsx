@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "./layout"
 import ItemTags from "./item-tags"
 import Seo from "./seo"
+import LazyLoad from "react-lazy-load"
 import ReactDisqusComments from "react-disqus-comments"
 
 type PostProps = {
@@ -67,9 +68,12 @@ const Post = ({ data: { post } }: PostProps) => (
       }}
     >
       <MDXRenderer>{post.body}</MDXRenderer>
-      <ReactDisqusComments
-        shortname= "jerrybui"
-      />
+      <LazyLoad offsetTop={400}>
+        <ReactDisqusComments
+          shortname= "jerrybui"
+        />
+      </LazyLoad>
+
     </section>
   </Layout>
 )
