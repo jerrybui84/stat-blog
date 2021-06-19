@@ -30,4 +30,6 @@ collections:
         name: 'index'
         label: 'About'
         fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'string', default: '"/about"'}
           - { label: 'Body', name: 'body', widget: 'markdown' }
