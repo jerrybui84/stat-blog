@@ -6,3 +6,5 @@ tags:
   - jerry
 ---
 Xin kính chào quý vị và các bạn
+
+![](circle-cropped.png)
