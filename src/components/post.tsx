@@ -72,6 +72,7 @@ const Post = ({ data: { post } }: PostProps) => (
         <ReactDisqusComments
           shortname= "jerrybui"
           identifier= {post.title}
+          title= {post.title}
         />
       </LazyLoad>
 
