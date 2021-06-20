@@ -58,7 +58,7 @@ module.exports = {
           },
           {
             name: `Homepage`,
-            url: `jerrybui.xyz`,
+            url: `https://jerrybui.xyz`,
           },
         ],
       },
