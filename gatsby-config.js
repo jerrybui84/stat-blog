@@ -53,12 +53,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Youtube`,
+            url: `https://www.youtube.com/channel/UCpesTmypi88ot_MxoYTWypw`,
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `jerrybui.xyz`,
           },
         ],
       },
