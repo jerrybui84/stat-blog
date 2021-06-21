@@ -31,15 +31,15 @@ Dự đoán này cho phép chúng ta “xác nhận” một quá trình sản x
 
 Lưu ý rằng khi chúng ta nói về khả năng của quá trình, chúng ta có xu hướng bỏ qua một từ quan trọng: **"tiềm năng"**. Chỉ số Cp cung cấp một thước đo về khả năng tiềm năng của quá trình, tức là quá trình có thể thực hiện tốt như thế nào nếu không có thay đổi trong các điều kiện cơ bản của quá trình.
 
-Tuy nhiên, chúng ta đều biết rằng trong thế giới thực, các điều kiện cơ bản của quá trình thay đổi liên tục - dụng cụ hao mòn, người vận hành thay đổi, máy móc nóng lên, bỏ qua bảo trì, nguyên liệu thô thay đổi theo từng lô - và do đó, chúng ta cần một cơ chế để theo dõi, kiểm soát và điều chỉnh hiệu suất của chúng ta theo thời gian. Đó là nơi Kiểm soát quá trình bằng phương pháp thống kê và cụ thể là Biểu đồ kiểm soát. 
+Tuy nhiên, chúng ta đều biết rằng trong thế giới thực, các điều kiện cơ bản của quá trình thay đổi liên tục - dụng cụ hao mòn, người vận hành thay đổi, máy móc nóng lên, bỏ qua bảo trì, nguyên liệu thô thay đổi theo từng lô - và do đó, chúng ta cần một cơ chế để theo dõi, kiểm soát và điều chỉnh hiệu suất của chúng ta theo thời gian. Đó chính là kiểm soát quá trình bằng phương pháp thống kê và cụ thể là Biểu đồ kiểm soát. 
 
 ### **Kiểm soát quá trình bằng phương pháp thống kê và Biểu đồ kiểm soát**
 
-SPC là một công cụ để theo dõi và kiểm soát quá trình sản xuất nhằm ngăn chặn việc sản xuất sản phẩm không phù hợp. Thuật ngữ chính ở đây là **"kiểm soát"**. Không giống như phân tích năng lực xử lý và phân tích hiệu suất quá trình trong đó chúng ta đo lường và phân tích mà không thay đổi cài đặt cho đến khi nghiên cứu hoàn tất, SPC yêu cầu chúng ta đo lường, phân tích và hành động theo thời gian thực của phân tích. SPC giúp chúng ta phát hiện sự không ổn định trong quá trình do những thứ như mài mòn dụng cụ, giảm áp suất, thay đổi nhiệt độ v.v. và do đó yêu cầu chúng ta thực hiện các điều chỉnh cần thiết để đảm bảo rằng quá trình trở lại ổn định và tiếp tục sản xuất các chi tiết theo thông số kỹ thuật.
+SPC là một công cụ để theo dõi và kiểm soát quá trình sản xuất nhằm ngăn chặn việc sản xuất sản phẩm không phù hợp. Thuật ngữ chính ở đây là **"kiểm soát"**. Không giống như phân tích năng lực quá trình và phân tích hiệu suất quá trình trong đó chúng ta đo lường và phân tích mà không thay đổi cài đặt cho đến khi nghiên cứu hoàn tất, SPC yêu cầu chúng ta đo lường, phân tích và hành động theo thời gian thực của phân tích. SPC giúp chúng ta phát hiện sự không ổn định trong quá trình do những thứ như mài mòn dụng cụ, giảm áp suất, thay đổi nhiệt độ v.v. và do đó yêu cầu chúng ta thực hiện các điều chỉnh cần thiết để đảm bảo rằng quá trình trở lại ổn định và tiếp tục sản xuất theo thông số kỹ thuật.
 
 ### **\[Thực tế] Phân tích Hiệu suất quá trình (Pp)**
 
-Một nghiên cứu về hiệu suất của quá trình được sử dụng để **ĐÁNH GIÁ** quá trình sản xuất và trả lời câu hỏi: "quá trình thực sự hoạt động như thế nào trong một khoảng thời gian?" Trong việc sử dụng hàng ngày, chúng ta có xu hướng bỏ qua một từ quan trọng  **"thực tế"** khỏi tên của phân tích này.
+Một nghiên cứu về hiệu suất của quá trình được sử dụng để **ĐÁNH GIÁ** quá trình sản xuất và trả lời câu hỏi: "quá trình thực sự hoạt động như thế nào trong một khoảng thời gian?" Trong việc sử dụng hàng ngày, chúng ta có xu hướng bỏ qua một từ quan trọng **"thực tế"** khỏi tên của phân tích này.
 
 Thiếu từ “Thực tế” trong hiệu suất quá trình và thiếu từ “Tiềm năng” trong năng lực quá trình dẫn đến sự nhầm lẫn đáng kể giữa các học viên.
 
