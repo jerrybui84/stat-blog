@@ -25,21 +25,12 @@ Trong khi có rất nhiều bài viết về sự khác biệt trong tính toán
 
 **Khi nào thì dùng Cp, Cpk và Pp, Ppk**
 
-
-| Giai đoạn        | PHÁT TRIỂN SẢN PHẨM MỚI                                                                                                                                      | SẢN XUẤT HÀNG LOẠT                                                                          | ĐÁNH GIÁ QUÁ TRÌNH                                                                                                                                                          |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mục đích         | Dự đoán hiệu suất quá trình                                                                                                                                  | Kiểm soát quá trình                                                                         | Xem xét hiệu suất thực hiện                                                                                                                                                 |
-| Công cụ thống kê | Cp, Cpk                                                                                                                                                      | SPC                                                                                         | Pp, Ppk                                                                                                                                                                     |
-| Ứng dụng         | \- Dự đoán khả năng của một quá trình
-
-\- Xem xét và đánh giá mức độ phù hợp của dung sai
-
-\-Phân bổ máy móc có đủ năng lực đáp ứng được nhu cầu -khách hàng | \- Ngăn chặn sản xuất sản phẩm không phù hợp
-
-\- Phát hiện sự không ổn định trong quá trình | \- Hiểu quá trình sản xuất thực tế so với yêu cầu của khách hàng (xem xét các chỉ số như DDPM)
-
-\- Thực hiện sau một khoảng thời gian sản xuất như kết thúc tháng, quý, năm |
-
+| GIAI ĐOẠN        | PHÁT TRIỂN SẢN PHẨM MỚI                                                                                                                                 | SẢN XUẤT HÀNG LOẠT                                                                       | ĐÁNH GIÁ QUÁ TRÌNH                                                                                                                                                       |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mục đích         | Dự đoán hiệu suất quá trình                                                                                                                             | Kiểm soát quá trình                                                                      | Xem xét hiệu suất thực hiện                                                                                                                                              |
+| Công cụ thống kê | Cp, Cpk                                                                                                                                                 | SPC                                                                                      | Pp, Ppk                                                                                                                                                                  |
+| Ứng dụng         | - Dự đoán khả năng của một quá trình - Xem xét và đánh giá mức độ phù hợp của dung sai -Phân bổ máy móc có đủ năng lực đáp ứng được nhu cầu -khách hàng | - Ngăn chặn sản xuất sản phẩm không phù hợp - Phát hiện sự không ổn định trong quá trình | - Hiểu quá trình sản xuất thực tế so với yêu cầu của khách hàng (xem xét các chỉ số như DDPM) - Thực hiện sau một khoảng thời gian sản xuất như kết thúc tháng, quý, năm |
+|                  |                                                                                                                                                         |                                                                                          |                                                                                                                                                                          |
 
 
 ### **[Tiềm năng] Phân tích năng lực quá trình (Cp)**
