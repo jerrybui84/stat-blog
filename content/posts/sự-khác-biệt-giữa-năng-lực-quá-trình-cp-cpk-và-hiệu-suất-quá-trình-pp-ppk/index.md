@@ -10,14 +10,10 @@ tags:
   - Pp
   - Ppk
 ---
-## **Sự khác biệt giữa Năng lực quá trình (Cp, Cpk) và Hiệu suất quá trình (Pp, Ppk)**
-
 Một trong những câu hỏi phổ biến nhất trên mạng khi tôi tham gia các diễn đàn thảo luận về chủ đề Cp, Cpk và Pp, Ppk đó là:
 
-
-
-*   Sự khác biệt giữa phân tích năng lực quá trình (Cp, Cpk) và phân tích hiệu suất quá trình (Pp, Ppk)?
-*   Ứng dụng của (Cp, Cpk) và (Pp, Ppk) là gì?
+* Sự khác biệt giữa phân tích năng lực quá trình (Cp, Cpk) và phân tích hiệu suất quá trình (Pp, Ppk)?
+* Ứng dụng của (Cp, Cpk) và (Pp, Ppk) là gì?
 
 Trong khi có rất nhiều bài viết về sự khác biệt trong tính toán giữa các chỉ số này, nhưng rất ít bài viết về sự khác biệt trong ứng dụng, tức là nơi mỗi chỉ số này được sử dụng và chúng giúp chúng ta giải quyết những vấn đề sản xuất nào. Do đó, trong bài viết này, tôi sẽ giải thích cách sử dụng tốt nhất từng kỹ thuật này trong môi trường sản xuất.
 
@@ -25,21 +21,11 @@ Trong khi có rất nhiều bài viết về sự khác biệt trong tính toán
 
 **Khi nào thì dùng Cp, Cpk và Pp, Ppk**
 
-| GIAI ĐOẠN        | PHÁT TRIỂN SẢN PHẨM MỚI                                                                                                                                 | SẢN XUẤT HÀNG LOẠT                                                                       | ĐÁNH GIÁ QUÁ TRÌNH                                                                                                                                                       |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mục đích         | Dự đoán hiệu suất quá trình                                                                                                                             | Kiểm soát quá trình                                                                      | Xem xét hiệu suất thực hiện                                                                                                                                              |
-| Công cụ thống kê | Cp, Cpk                                                                                                                                                 | SPC                                                                                      | Pp, Ppk                                                                                                                                                                  |
-| Ứng dụng         | - Dự đoán khả năng của một quá trình
-- Xem xét và đánh giá mức độ phù hợp của dung sai
--Phân bổ máy móc có đủ năng lực đáp ứng được nhu cầu -khách hàng | - Ngăn chặn sản xuất sản phẩm không phù hợp
-- Phát hiện sự không ổn định trong quá trình | - Hiểu quá trình sản xuất thực tế so với yêu cầu của khách hàng (xem xét các chỉ số như DDPM)
-- Thực hiện sau một khoảng thời gian sản xuất như kết thúc tháng, quý, năm |
+![](cp-cpk-pp-ppk.png)
 
+### **\[Tiềm năng] Phân tích năng lực quá trình (Cp)**
 
-
-### **[Tiềm năng] Phân tích năng lực quá trình (Cp)**
-
-Một nghiên cứu năng lực quá trình sử dụng dữ liệu từ một mẫu để **DỰ ĐOÁN **khả năng của một quá trình sản xuất để tạo ra các chi tiết phù hợp với thông số kỹ thuật
+Một nghiên cứu năng lực quá trình sử dụng dữ liệu từ một mẫu để **DỰ ĐOÁN** khả năng của một quá trình sản xuất để tạo ra các chi tiết phù hợp với thông số kỹ thuật
 
 Dự đoán này cho phép chúng ta “xác nhận” một quá trình sản xuất mới là phù hợp để sử dụng trong sản xuất. Do đó, Phân tích năng lực của quá trình được sử dụng tốt nhất trong quá trình Chạy sản phẩm mới (NPI), hoặc vào đầu mỗi ngày hoặc mỗi ca sản xuất như một phương pháp kiểm tra xem một quá trình có nằm trong tầm kiểm soát và có khả năng sản xuất các chi tiết đáp ứng các thông số kỹ thuật hay không.
 
@@ -47,20 +33,17 @@ Lưu ý rằng khi chúng ta nói về khả năng của quá trình, chúng ta 
 
 Tuy nhiên, chúng ta đều biết rằng trong thế giới thực, các điều kiện cơ bản của quá trình thay đổi liên tục - dụng cụ hao mòn, người vận hành thay đổi, máy móc nóng lên, bỏ qua bảo trì, nguyên liệu thô thay đổi theo từng lô - và do đó, chúng ta cần một cơ chế để theo dõi, kiểm soát và điều chỉnh hiệu suất của chúng ta theo thời gian. Đó là nơi Kiểm soát quá trình bằng phương pháp thống kê và cụ thể là Biểu đồ kiểm soát. 
 
-
 ### **Kiểm soát quá trình bằng phương pháp thống kê và Biểu đồ kiểm soát**
 
 SPC là một công cụ để theo dõi và kiểm soát quá trình sản xuất nhằm ngăn chặn việc sản xuất sản phẩm không phù hợp. Thuật ngữ chính ở đây là **"kiểm soát"**. Không giống như phân tích năng lực xử lý và phân tích hiệu suất quá trình trong đó chúng ta đo lường và phân tích mà không thay đổi cài đặt cho đến khi nghiên cứu hoàn tất, SPC yêu cầu chúng ta đo lường, phân tích và hành động theo thời gian thực của phân tích. SPC giúp chúng ta phát hiện sự không ổn định trong quá trình do những thứ như mài mòn dụng cụ, giảm áp suất, thay đổi nhiệt độ v.v. và do đó yêu cầu chúng ta thực hiện các điều chỉnh cần thiết để đảm bảo rằng quá trình trở lại ổn định và tiếp tục sản xuất các chi tiết theo thông số kỹ thuật.
 
-
-### **[Thực tế] Phân tích Hiệu suất quá trình (Pp)**
+### **\[Thực tế] Phân tích Hiệu suất quá trình (Pp)**
 
 Một nghiên cứu về hiệu suất của quá trình được sử dụng để **ĐÁNH GIÁ** quá trình sản xuất và trả lời câu hỏi: "quá trình thực sự hoạt động như thế nào trong một khoảng thời gian?" Trong việc sử dụng hàng ngày, chúng ta có xu hướng bỏ qua một từ quan trọng  **"thực tế"** khỏi tên của phân tích này.
 
 Thiếu từ “Thực tế” trong hiệu suất quá trình và thiếu từ “Tiềm năng” trong năng lực quá trình dẫn đến sự nhầm lẫn đáng kể giữa các học viên.
 
 Phân tích hiệu suất quá trình được sử dụng tốt nhất khi bạn có dữ liệu kiểm tra và bạn muốn sử dụng dữ liệu kiểm tra để hiểu cách quá trình sản xuất của bạn thực sự được thực hiện. Đây là phân tích lịch sử chứ không phải phân tích dự đoán, nhưng vẫn có thể được sử dụng để thúc đẩy cải tiến quá trình.
-
 
 ### **Sự khác biệt quan trọng**
 
