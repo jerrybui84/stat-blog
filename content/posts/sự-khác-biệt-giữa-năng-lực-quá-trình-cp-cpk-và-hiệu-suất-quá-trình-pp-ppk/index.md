@@ -26,56 +26,19 @@ Trong khi có rất nhiều bài viết về sự khác biệt trong tính toán
 **Khi nào thì dùng Cp, Cpk và Pp, Ppk**
 
 
-<table>
-  <tr>
-   <td>Giai đoạn
-   </td>
-   <td><strong>PHÁT TRIỂN SẢN PHẨM MỚI</strong>
-   </td>
-   <td><strong>SẢN XUẤT HÀNG LOẠT</strong>
-   </td>
-   <td><strong>ĐÁNH GIÁ QUÁ TRÌNH</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Mục đích
-   </td>
-   <td>Dự đoán hiệu suất quá trình
-   </td>
-   <td>Kiểm soát quá trình
-   </td>
-   <td>Xem xét hiệu suất thực hiện
-   </td>
-  </tr>
-  <tr>
-   <td>Công cụ thống kê
-   </td>
-   <td>Cp, Cpk
-   </td>
-   <td>SPC
-   </td>
-   <td>Pp, Ppk
-   </td>
-  </tr>
-  <tr>
-   <td>Ứng dụng
-   </td>
-   <td>- Dự đoán khả năng của một quá trình
-<p>
-Xem xét và đánh giá mức độ phù hợp của dung sai
-<p>
--Phân bổ máy móc có đủ năng lực đáp ứng được nhu cầu -khách hàng
-   </td>
-   <td>- Ngăn chặn sản xuất sản phẩm không phù hợp
-<p>
-- Phát hiện sự không ổn định trong quá trình
-   </td>
-   <td>- Hiểu quá trình sản xuất thực tế so với yêu cầu của khách hàng (xem xét các chỉ số như DDPM)
-<p>
-- Thực hiện sau một khoảng thời gian sản xuất như kết thúc tháng, quý, năm
-   </td>
-  </tr>
-</table>
+| Giai đoạn        | PHÁT TRIỂN SẢN PHẨM MỚI                                                                                                                                      | SẢN XUẤT HÀNG LOẠT                                                                          | ĐÁNH GIÁ QUÁ TRÌNH                                                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mục đích         | Dự đoán hiệu suất quá trình                                                                                                                                  | Kiểm soát quá trình                                                                         | Xem xét hiệu suất thực hiện                                                                                                                                                 |
+| Công cụ thống kê | Cp, Cpk                                                                                                                                                      | SPC                                                                                         | Pp, Ppk                                                                                                                                                                     |
+| Ứng dụng         | \- Dự đoán khả năng của một quá trình
+
+\- Xem xét và đánh giá mức độ phù hợp của dung sai
+
+\-Phân bổ máy móc có đủ năng lực đáp ứng được nhu cầu -khách hàng | \- Ngăn chặn sản xuất sản phẩm không phù hợp
+
+\- Phát hiện sự không ổn định trong quá trình | \- Hiểu quá trình sản xuất thực tế so với yêu cầu của khách hàng (xem xét các chỉ số như DDPM)
+
+\- Thực hiện sau một khoảng thời gian sản xuất như kết thúc tháng, quý, năm |
 
 
 
