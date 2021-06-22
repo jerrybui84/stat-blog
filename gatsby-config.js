@@ -84,9 +84,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Jerry Bui Blog - Phân tích thống kê không khó`,
+        short_name: `Jerry-blog`,
+        description: `Xin chào, Mình là Jerry Bùi, hiện tại đang là kỹ sư chất lượng làm việc trong lĩnh vực sản xuất điện & điện tử. Đây là trang cá nhân chia sẻ các kiến thức về phân tích thống kê, Minitab, R, khoa học mở và trực quan hóa dữ liệu.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
