@@ -46,10 +46,6 @@ module.exports = {
             title: `Topics`,
             slug: `/topic`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
         ],
         externalLinks: [
           {
