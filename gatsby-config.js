@@ -12,7 +12,7 @@ module.exports = {
         // Can be used for e.g. JSONLD
         siteHeadline: `Jerry Bui Blog - Phân tích thống kê không khó`,
         // Will be used to generate absolute URLs for og:image etc.
-        siteUrl: `https://statforfree.com`,
+        siteUrl: `https://jerrybui.xyz`,
         // Used for SEO
         siteDescription: `Xin chào, Mình là Jerry Bùi, hiện tại đang là kỹ sư chất lượng làm việc trong lĩnh vực sản xuất điện & điện tử. Đây là trang cá nhân chia sẻ các kiến thức về phân tích thống kê, Minitab, R, khoa học mở và trực quan hóa dữ liệu.`,
         // Will be set on the <html /> tag
